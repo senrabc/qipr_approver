@@ -26,7 +26,7 @@ alias lss='ls -ltr'
 alias dua='du -hcs'
 alias duf="du -h --max-depth=1 ./ | sort -n -r"
 alias cdd='cd ..'
-
+alias ll='ls -lah'
 alias big='du -hcs * | grep -E "M|G"'
 alias big_find='find ./ -size +10000k  | xargs ls -hsS'
 alias big_10='ls -hsS | head -10'
