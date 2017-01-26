@@ -110,7 +110,7 @@ function install_qipr_approver_fresh_vm () {
         create_database
         migrate_application_database
         apply_fixtures
-        handle_static_files
+#        handle_static_files
         apache_setup
     popd
 }

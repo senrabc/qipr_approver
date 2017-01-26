@@ -15,3 +15,5 @@ configure_base
 install_utils
 install_system_packages
 install_qipr_approver_fresh_vm
+# bad things happen when you have the wrong time. Call NIST for help ;).
+sync_time
